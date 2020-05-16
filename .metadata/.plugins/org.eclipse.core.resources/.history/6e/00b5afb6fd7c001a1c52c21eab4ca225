@@ -1,0 +1,11 @@
+package com.dao;
+
+import javax.persistence.EntityManager;
+
+import com.config.MyFactory;
+
+public class AuthorDao {
+	
+	EntityManager em = MyFactory.getEntitiyManager();
+
+}

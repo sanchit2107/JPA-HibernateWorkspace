@@ -1,0 +1,17 @@
+package com.main;
+
+import com.bean.Author;
+import com.dao.AuthorDao;
+
+public class AuthorMain {
+
+	public static void main(String[] args) {
+
+		AuthorDao authorDao = new AuthorDao();
+		
+		String result = authorDao.createAuthor(new Author(101, "Akhilesh", "Kumar", "Srivastava", "9587747893"));
+		System.out.println(result);
+
+	}
+
+}

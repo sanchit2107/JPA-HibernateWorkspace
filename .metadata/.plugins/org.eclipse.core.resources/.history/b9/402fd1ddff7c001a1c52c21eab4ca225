@@ -1,0 +1,15 @@
+package com.main;
+
+import com.dao.AuthorDao;
+
+public class AuthorMain {
+
+	public static void main(String[] args) {
+
+		AuthorDao authorDao = new AuthorDao();
+		
+		
+
+	}
+
+}

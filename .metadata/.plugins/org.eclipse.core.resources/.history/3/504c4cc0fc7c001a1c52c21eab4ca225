@@ -1,0 +1,10 @@
+package com.bean;
+
+public class Author {
+	
+	private int authorId;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private String phoneNumber;
+}
